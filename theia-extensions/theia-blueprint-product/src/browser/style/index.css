@@ -15,7 +15,7 @@
  ********************************************************************************/
 
 :root {
-    --theia-branding-logo: url(../icons/TheiaBlueprintLogo-blue.png);
+    --theia-branding-logo: url(../icons/qa.png);
 }
 
 .gs-blue-header {

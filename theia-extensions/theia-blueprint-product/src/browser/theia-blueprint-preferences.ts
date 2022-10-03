@@ -16,7 +16,7 @@
 
 import { PreferenceSchema } from '@theia/core/lib/common/preferences/preference-schema';
 export namespace BlueprintPreferences {
-    export const alwaysShowWelcomePage = 'blueprint.alwaysShowWelcomePage';
+    export const alwaysShowWelcomePage = 'SimplifyQA Welcomepage';
 }
 
 export const theiaBlueprintPreferenceSchema: PreferenceSchema = {

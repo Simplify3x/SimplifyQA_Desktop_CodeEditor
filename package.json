@@ -50,5 +50,9 @@
   ],
   "resolutions": {
     "**/multer": "1.4.4-lts.1"
+  },
+  "dependencies": {
+    "node-gyp": "^9.1.0",
+    "yarn": "^1.22.19"
   }
 }

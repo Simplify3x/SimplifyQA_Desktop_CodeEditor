@@ -20,11 +20,11 @@ import { FrontendApplicationContribution, WidgetFactory, bindViewContribution, P
 import { AboutDialog } from '@theia/core/lib/browser/about-dialog';
 import { CommandContribution } from '@theia/core/lib/common/command';
 import { ContainerModule } from '@theia/core/shared/inversify';
-import { GettingStartedWidget } from '@theia/getting-started/lib/browser/getting-started-widget';
+ import { GettingStartedWidget } from '@theia/getting-started/lib/browser/getting-started-widget';
 import { MenuContribution } from '@theia/core/lib/common/menu';
 import { TheiaBlueprintAboutDialog } from './theia-blueprint-about-dialog';
 import { TheiaBlueprintContribution } from './theia-blueprint-contribution';
-import { TheiaBlueprintGettingStartedContribution } from './theia-blueprint-getting-started-contribution';
+ import { TheiaBlueprintGettingStartedContribution } from './theia-blueprint-getting-started-contribution';
 import { TheiaBlueprintGettingStartedWidget } from './theia-blueprint-getting-started-widget';
 import { theiaBlueprintPreferenceSchema } from './theia-blueprint-preferences';
 
