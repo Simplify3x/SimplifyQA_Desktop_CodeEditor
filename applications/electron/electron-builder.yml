@@ -1,4 +1,4 @@
-appId: eclipse.theia
+appId: SimplifyQA-Codeeditor
 productName: SimplifyQA-CodeEditor
 copyright: Copyright © 2020-2022 Eclipse Foundation, Inc
 electronDist: ../../node_modules/electron/dist
@@ -56,11 +56,11 @@ nsis:
   menuCategory: true
   oneClick: false
   perMachine: false
-  installerHeaderIcon: resources/icons/WindowsLauncherIcon/qa.ico
-  installerIcon: resources/icons/WindowsLauncherIcon/qa.ico
-  uninstallerIcon: resources/icons/WindowsLauncherIcon/qa.ico
-  installerSidebar: resources/icons/InstallerSidebarImage/164-314Windows.bmp
-  uninstallerSidebar: resources/icons/InstallerSidebarImage/164-314Windows.bmp
+  # installerHeaderIcon: resources/icons/WindowsLauncherIcon/qa.ico
+  # installerIcon: resources/icons/WindowsLauncherIcon/qa.ico
+  # uninstallerIcon: resources/icons/WindowsLauncherIcon/qa.ico
+  # installerSidebar: resources/icons/InstallerSidebarImage/164-314Windows.bmp
+  # uninstallerSidebar: resources/icons/InstallerSidebarImage/164-314Windows.bmp
   allowToChangeInstallationDirectory: true
   runAfterFinish: false
   artifactName: ${productName}.${ext}

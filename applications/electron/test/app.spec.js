@@ -12,19 +12,19 @@ function getBinaryPath() {
       return path.join(
         distFolder,
         "linux-unpacked",
-        "theia-blueprint"
+        "SimplifyQa-Codeeditor"
       );
     case "win32":
       return path.join(
         distFolder,
         "win-unpacked",
-        "TheiaBlueprint.exe"
+        "SimplifyQA-Codeeditor.exe"
       );
     case "darwin":
       return path.join(
         distFolder,
         "mac",
-        "TheiaBlueprint.app",
+        "SimplifyQA-Codeeditor.app",
         "Contents",
         "MacOS",
         "TheiaBlueprint"

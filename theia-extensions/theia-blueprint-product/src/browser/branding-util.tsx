@@ -45,7 +45,7 @@ function openExternalLink(url: string, windowService: WindowService): void {
 export function renderWhatIs(windowService: WindowService): React.ReactNode {
     return <div className='gs-section'>
         <h3 className='gs-section-header'>
-            What is Theia Blueprint?
+            What is simplifyQACodeEditor?
         </h3>
         <div >
             Eclipse Theia Blueprint is a <span className='gs-text-bold'>template</span> to showcase
