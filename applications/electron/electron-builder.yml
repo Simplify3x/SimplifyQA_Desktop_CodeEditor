@@ -25,14 +25,14 @@ extraResources:
     to: app/plugins
 
 win:
-  icon: resources/icons/WindowsLauncherIcon/qa.ico
+  icon: resources/icons/WindowsLauncherIcon/QAlogo.ico
   target:
     - nsis
   publish:
     provider: generic
     url: "https://download.eclipse.org/theia/latest/windows"
 mac:
-  icon: resources/icons/MacLauncherIcon/512-512-2.icns
+  icon: resources/icons/MacLauncherIcon/QAlogo.ico
   category: public.app-category.developer-tools
   darkModeSupport: true
   target:
@@ -42,7 +42,7 @@ mac:
     provider: generic
     url: "https://download.eclipse.org/theia/latest/macos"
 linux:
-  icon: resources/icons/LinuxLauncherIcon/512-512.png
+  icon: resources/icons/LinuxLauncherIcon/QAlogo.ico
   category: Development
   vendor: Eclipse Foundation, Inc
   target:
